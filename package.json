@@ -6,11 +6,8 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
-    "cy:run": "cypress run --spec cypress/e2e/graphql.cy.js,cypress/e2e/wikipedia.cy.js",
-    "cy:run:mobile": "cypress run --config viewportWidth=410 viewportHeight=860 --spec cypress/e2e/graphql.cy.js,cypress/e2e/wikipedia.cy.js",
-    "cy:run:smoke": "cypress run --env grepTags=@smoke",
-    "cy:run:visualtest:base": "cypress run --env type=base",
-    "cy:run:visualtest:actual": "cypress run --env type=actual"
+    "cy:run": "cypress run",
+    "cy:run:mobile": "cypress run --config viewportWidth=410 viewportHeight=860 --spec cypress/e2e/graphql.cy.js,cypress/e2e/wikipedia.cy.js"
   },
   "author": "Marcelo Macedo",
   "license": "ISC",
